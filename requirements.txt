@@ -1,7 +1,10 @@
-
 streamlit
 pandas
 numpy
 scikit-learn==1.6.1
 joblib
 matplotlib
+PyMuPDF
+Pillow
+pytesseract
+pdf2image
