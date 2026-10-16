@@ -1,0 +1,30 @@
+{
+    "model_name": "CardioPredict AI Lab CVD Model",
+    "model_type": "Logistic Regression",
+    "features": [
+        "age",
+        "sex",
+        "bmi",
+        "systolic_bp",
+        "diastolic_bp",
+        "total_cholesterol",
+        "hdl",
+        "diabetes"
+    ],
+    "target": "Historical self-reported cardiovascular disease",
+    "dataset": "CDC NHANES 2017-2018",
+    "test_metrics": {
+        "accuracy": 0.7109,
+        "precision": 0.2725,
+        "recall": 0.7899,
+        "f1_score": 0.4052,
+        "roc_auc": 0.8129
+    },
+    "limitations": [
+        "Educational research model, not a diagnostic tool.",
+        "Predicts association with historical self-reported disease.",
+        "Not validated for future cardiovascular risk.",
+        "Performance may differ in other populations.",
+        "Input values must use the expected units."
+    ]
+}

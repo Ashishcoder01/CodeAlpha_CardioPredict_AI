@@ -1,0 +1,25 @@
+{
+    "project": "CodeAlpha Heart Disease Prediction",
+    "selected_model": "Logistic Regression",
+    "input_features": [
+        "age",
+        "sex",
+        "cp",
+        "trestbps",
+        "chol",
+        "fbs",
+        "restecg",
+        "thalach",
+        "exang",
+        "oldpeak",
+        "slope",
+        "ca",
+        "thal"
+    ],
+    "target_mapping": {
+        "0": "No disease",
+        "1": "Disease present"
+    },
+    "selection_metric": "Mean 5-fold training ROC-AUC",
+    "cross_validation_roc_auc": 0.9024931590148981
+}
